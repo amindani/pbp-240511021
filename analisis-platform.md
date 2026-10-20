@@ -1,23 +1,21 @@
-# Analisis Komparatif Platform (Web, Desktop, Mobile)
+# Analisis Komparatif Komputasi Platform
 
-## Tabel Komparasi Platform
-
-| Aspek | Web | Desktop | Mobile |
+| Aspek Komparasi | Platform Web | Platform Desktop | Platform Mobile |
 | :--- | :--- | :--- | :--- |
-| **Bahasa utama** | JavaScript, TypeScript, HTML, CSS | C++, C#, Java, Python, Rust, Swift/Kotlin (Desktop Frameworks) | Kotlin, Swift, Dart (Flutter), JavaScript (React Native) |
-| **Arsitektur** | Client-Server (Browser-based, Thin Client), JAMstack | Standalone Monolithic, Client-Server (Thick Client), Multi-process (e.g., Electron) | Client-Server (Mobile Client-API), Event-driven Architecture |
-| **Cara distribusi** | Web Hosting / Cloud (URL/Domain melalui Web Browser) | Installer Executable (`.exe`, `.msi`, `.dmg`, `.deb`) atau App Store (Windows Store, Mac App Store) | Application Store (Google Play Store, Apple App Store) melalui paket `.apk`/`.aab` atau `.ipa` |
-| **Keunggulan** | Multiplatform/Cross-platform instan, tidak perlu instalasi, update langsung tersalurkan secara otomatis ke pengguna | Akses penuh ke hardware/GPU lokal, performa tinggi, dapat berjalan sepenuhnya secara offline | Portabel, akses ke sensor perangkat (GPS, Kamera, Biometrik), push notification terintegrasi |
-| **Keterbatasan** | Bergantung pada koneksi internet, akses fitur hardware terbatas demi keamanan browser, performa terbatas dibanding aplikasi native | Perlu instalasi & update manual per perangkat, dependensi OS (perlu penyesuaian untuk Windows/macOS/Linux) | Ukuran layar terbatas, resource (RAM & Baterai) terbatas, proses kompilasi & verifikasi App Store yang relatif panjang |
-| **Contoh aplikasi** | Trello, Figma Web, Google Docs | VS Code, Adobe Photoshop, Spotify Desktop | WhatsApp Mobile, Gojek, Instagram |
+| **Bahasa Pemrograman Utama** | JavaScript (Node.js/Frontend), TypeScript, WebAssembly (C++/Rust) | C#, C++, Java, Rust, Swift (macOS/Cocoa), Python | Kotlin (Android Native), Swift (iOS Native), Dart, JavaScript/JSX |
+| **Pola Arsitektur Perangkat Lunak** | Client-Server, Single Page Application (SPA), Micro-frontends, PWA | Monolitik Lokal, Native GUI Architecture, Client-Server (Heavy/Thick Client) | Model-View-ViewModel (MVVM), Clean Architecture, REST/GraphQL Client |
+| **Mekanisme Distribusi & Pengoperasian** | Penyediaan via Server Web / Content Delivery Network (CDN) melalui peramban (browser) | Berkas biner (*installer*) mandiri (`.exe`, `.dmg`, `.AppImage`) atau toko aplikasi OS | Distribusi resmi via platform store (Google Play Store & Apple App Store) |
+| **Keunggulan Utama** | Bebas akses tanpa proses instalasi lokal, pembaruan versi terpusat secara *real-time*, hemat ruang penyimpanan lokal | Akses komputasi mendalam ke hardware (CPU/GPU), operasi cepat tanpa dependensi jaringan, kontrol memori tinggi | Sangat portabel, pemanfaatan penuh sensor fisik (GPS, Gyroscope, NFC), serta sistem notifikasi bawaan |
+| **Keterbatasan Utama** | Terisolasi dalam *sandbox* browser, kinerja terbatas pada pemrosesan grafis berat, dependensi penuh pada stabilitas koneksi | Kurang fleksibel antar-OS (perlu kompilasi ulang), instalasi dan pembaruan patch memerlukan tindakan pengguna | Keterbatasan daya baterai dan memori RAM, batasan kebijakan ketat dari pengelola toko aplikasi |
+| **Contoh Implementasi Real** | Notion Web, Canva, Google Maps Web | Blender, Slack Desktop, Microsoft Excel Desktop | Tokopedia, Spotify Mobile, Grab |
 
 ---
 
-## Daftar Referensi
+## Sumber Referensi & Literatur
 
-1. **MDN Web Docs.** *Introduction to Web Development & Web Architecture.*  
-   URL: https://developer.mozilla.org/en-US/docs/Learn
-2. **Android Developers.** *Guide to App Architecture.*  
-   URL: https://developer.android.com/topic/architecture
-3. **Microsoft Learn.** *Desktop Application Development Documentation.*  
-   URL: https://learn.microsoft.com/en-us/windows/apps/
+1. **W3C (World Wide Web Consortium).** *Web Architecture and Standards.*  
+   URL: https://www.w3.org/TR/webarch/
+2. **Apple Developer Documentation.** *Human Interface Guidelines & iOS Architecture.*  
+   URL: https://developer.apple.com/documentation/
+3. **Google Developers.** *Progressive Web Apps & Web Platform Capability.*  
+   URL: https://web.dev/explore/progressive-web-apps
